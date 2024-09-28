@@ -13,6 +13,8 @@ import "./index.css";
 
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "@fortawesome/fontawesome-free/js/all.min.js"
+import Contact from "./components/Contact";
+import Services from "./components/Services";
 
 export default function App() {
   return (
@@ -22,6 +24,8 @@ export default function App() {
           <Route index element={<Home />} />
           <Route path="projects" element={<Projects />} />
           <Route path="about" element={<About />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="services" element={<Services />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
