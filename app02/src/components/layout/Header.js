@@ -29,6 +29,16 @@ const Header = () => {
                   <i className="fa-solid fa-address-book"></i> About
                 </NavLink>
               </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/services">
+                  <i className="fa-solid fa-address-book"></i> Services
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/contact">
+                  <i className="fa-solid fa-address-book"></i> Contact
+                </NavLink>
+              </li>
             </ul>
           </div>
         </div>
