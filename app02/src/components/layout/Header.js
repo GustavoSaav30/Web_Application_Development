@@ -1,5 +1,5 @@
 import { Outlet, NavLink, Link } from "react-router-dom";
-import image_logo from "../../assets/image_logo.JPG"
+import logo from "../../assets/logo.png"
 
 const Header = () => {
   return (
@@ -7,7 +7,7 @@ const Header = () => {
       <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
         <div className="container-fluid">
           <NavLink className="navbar-brand" to="/">
-            <img src={image_logo} alt="logo" style={{ width: 40 }} />
+            <img src={logo} alt="logo" style={{ width: 40 }} />
           </NavLink>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
             <span className="navbar-toggler-icon"></span>
