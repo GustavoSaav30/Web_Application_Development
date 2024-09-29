@@ -1,22 +1,23 @@
-import logo from "../../src/assets/logo.png"
+import profile from "../../src/assets/profile.jpg"
+import resume from "../assets/resume.pdf"
 const About = () => {
     return(
     <div className="about">
         <div className="container-flex">
-            <ul>
-                <li>My name is Gustav Saavedra</li>
-                <li>I am 25 years old </li>
-                <li>I am from mexico</li>
-                <li>My hobies are playing video games and watching movies</li>
-            </ul>
-            <img src={logo} />
+            <p>
+                My name is Gustav Saavedra
+                I am 25 years old
+                I am from mexico
+                My hobies are playing video games and watching movies
+            </p>
+            <img src={profile} />
         </div>
         <a
             target="_blank"
-            href="../assets/resume.pdf"
+            href={resume}
             download="GustavoSaavedraResume.pdf"
         >
-            <i className="fa-solid fa-file-pdf-o"></i>
+            <i className="fa-solid fa-address-card" aria-hidden="true"></i>Resume
         </a>
     </div>
     );
