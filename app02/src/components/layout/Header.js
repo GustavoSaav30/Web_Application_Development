@@ -31,12 +31,12 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/services">
-                  <i className="fa-solid fa-address-book"></i> Services
+                  <i className="fa-solid fa-clipboard-list"></i> Services
                 </NavLink>
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/contact">
-                  <i className="fa-solid fa-address-book"></i> Contact
+                  <i className="fa-solid fa-envelope"></i> Contact
                 </NavLink>
               </li>
             </ul>
