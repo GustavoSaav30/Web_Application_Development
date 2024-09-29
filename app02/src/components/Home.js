@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
     return (
-        <div className="container">
+        <div className="home">
             <h1>Welcome to My Portfolio</h1>
             <p>
                 Hi! I'm Gustavo Saavedra, a passionate front-end developer.
@@ -12,7 +12,7 @@ const Home = () => {
                 My goal is to delivery the best user experience
                 with a focus on simplicity and elegance.
             </p>
-            <div className="button-container">
+            <div className="button-home">
                 <Link to="/about">
                     <button className="button">About Me</button>
                 </Link>

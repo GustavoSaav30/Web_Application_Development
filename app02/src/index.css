@@ -20,7 +20,7 @@ footer {
   font-size: small;
 }
 
-.container {
+.home {
   text-align: center;
   margin-top: 50px;
   padding: 20px;
@@ -43,7 +43,7 @@ h2 {
   color: #444;
 }
 
-.button-container {
+.button-home {
   margin-top: 30px;
 }
 
@@ -61,4 +61,24 @@ h2 {
 
 .button:hover {
   background-color: #0056b3;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 100px;
+  gap: 50px;
+}
+
+.about img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
