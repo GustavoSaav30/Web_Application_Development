@@ -4,7 +4,7 @@ return (
         <h3>{title}</h3>
         <img src={pic}/>
         <p>{description}</p>
-        <a href={link}>Repository</a>
+        <a href={link} target="_blank">Repository</a>
     </div>
 );
 };

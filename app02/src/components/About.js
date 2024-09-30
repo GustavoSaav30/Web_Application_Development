@@ -5,9 +5,7 @@ const About = () => {
     <div className="about">
         <div className="container-flex">
             <p>
-                My name is Gustav Saavedra
-                I am 25 years old
-                I am from mexico
+                My name is Gustavo Saavedra. I am 25 years old and I am from mexico.
                 My hobies are playing video games and watching movies
             </p>
             <img src={profile} />
