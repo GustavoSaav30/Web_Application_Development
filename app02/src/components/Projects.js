@@ -3,7 +3,8 @@ import bugSmasher from "../assets/p-bugSmasher.png"
 
 const Projects = () => {
     return (
-        <div className="">
+        <div className="project-page">
+            <h1>My Projects</h1>
             <div className="projects">
                 <ProjectCard  pic={bugSmasher} title={"Bug Smasher"} description={"This is a bug smasher game using only javascript to simulate the bug and click on it to smash it."} link={"somelink"}/>
                 <ProjectCard  pic={bugSmasher} title={"Bug Smasher"} description={"Some description here"} link={"somelink"}/>

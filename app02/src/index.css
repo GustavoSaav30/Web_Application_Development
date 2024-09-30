@@ -85,6 +85,11 @@ h2 {
   height: 200px;
   border-radius: 50%;
 }
+.project-page h1 {
+  text-align: center;
+  margin-top: 1rem;
+}
+
 .projects {
   display: flex;
   justify-content: center;
@@ -95,7 +100,7 @@ h2 {
 }
 .project-card {
   width: 300px;
-  height: 500px;
+  height: 400px;
   border: 1px solid #000000;
   display: flex;
   align-items: center;
@@ -114,4 +119,34 @@ h2 {
 
 .project-card h3 {
   justify-self: flex-start;
+}
+
+.service-page h1 {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.service-page {
+
+}
+
+.service-card {
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  border: 1px solid black;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.service-card img {
+  width: 200px;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
 }

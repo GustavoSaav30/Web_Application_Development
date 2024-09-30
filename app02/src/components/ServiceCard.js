@@ -6,3 +6,5 @@ const ServiceCard = ({pic, description}) => {
         </div>
     );
 };
+
+export default ServiceCard;
