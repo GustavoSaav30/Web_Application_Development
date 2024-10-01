@@ -81,13 +81,19 @@ footer {
 }
 
 .about {
-  padding: 40px;
+  margin-top: 2rem;
+  padding: 2rem;
   background-color: #f9f9f9;
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 100vh;
+  align-self: center;
 }
 
+.about p {
+  text-align: center;
+}
 .container-flex {
   display: flex;
   flex-direction: row;
