@@ -39,7 +39,7 @@ footer {
 .home {
   text-align: center;
   margin-top: 50px;
-  padding: 20px;
+  padding: 2rem;
 }
 
 .button,
@@ -78,6 +78,7 @@ footer {
   justify-content: center;
   gap: 1rem;
   margin: auto;
+  padding: 1rem;
 }
 
 .about {
