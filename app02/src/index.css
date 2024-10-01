@@ -237,33 +237,63 @@ h2 {
   }
 }
 
-.service-page h1 {
-  margin-top: 1rem;
+.service-page {
+  padding: 40px;
+  background-color: #f9f9f9;
   text-align: center;
 }
 
-.service-page {
-
-}
-
-.service-card {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 600px;
-  border: 1px solid black;
-  gap: 1rem;
-  padding: 1rem;
-}
-
-.service-card img {
-  width: 200px;
+.service-page h1 {
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+  color: #333;
 }
 
 .services {
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.service-card {
+  width: 300px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  margin-top: 2rem;
+  padding: 20px;
+}
+
+.service-card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.service-card p {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+@media (max-width: 768px) {
+  .service-card {
+      width: 90%;
+  }
+
+  .service-page h1 {
+      font-size: 2rem;
+  }
 }
