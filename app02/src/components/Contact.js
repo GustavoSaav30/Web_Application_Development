@@ -38,50 +38,60 @@ function Contact() {
                 <h2>Send me a Message</h2>
                 <form onSubmit={handleSubmit}>
                     <div>
-                        <label>First Name</label>
+                        <label htmlFor="firstName">First Name</label>
                         <input
+                            id="firstName"
                             type="text"
                             value={firstName}
                             onChange={(e) => setFirstName(e.target.value)}
                             required
+                            autoComplete="given-name"
                         />
                     </div>
 
                     <div>
-                        <label>Last Name</label>
+                        <label htmlFor="lastName">Last Name</label>
                         <input
                             type="text"
+                            id="lastName"
                             value={lastName}
                             onChange={(e) => setLastName(e.target.value)}
                             required
+                            autoComplete="family-name"
                         />
                     </div>
 
                     <div>
-                        <label>Email</label>
+                        <label htmlFor="email">Email</label>
                         <input
+                            id="email"
                             type="email"
                             value={email}
                             onChange={(e) => setEmail(e.target.value)}
                             required
+                            autoComplete="email"
                         />
                     </div>
 
                     <div>
-                        <label>Phone</label>
+                        <label htmlFor="phone">Phone</label>
                         <input
+                            id="phone"
                             type="tel"
                             value={phone}
                             onChange={(e) => setPhone(e.target.value)}
+                            autoComplete="tel"
                         />
                     </div>
 
                     <div>
-                        <label>Message</label>
+                        <label htmlFor="message">Message</label>
                         <textarea
+                            id="message"
                             value={message}
                             onChange={(e) => setMessage(e.target.value)}
                             required
+                            autoComplete="off"
                         />
                     </div>
 
